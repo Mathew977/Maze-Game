@@ -1,0 +1,235 @@
+fileFormatVersion: 2
+guid: b68a8ea1bcd47234f92bff808bd9d7c7
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: 05_Unit_Body01
+    100002: 05_Unit_MouthUp001
+    100004: 05_Unit_MouthUp002
+    100006: 05_Unit_WingL001
+    100008: 05_Unit_WingR001
+    100010: BoxBird_EyesR002
+    100012: //RootNode
+    400000: 05_Unit_Body01
+    400002: 05_Unit_MouthUp001
+    400004: 05_Unit_MouthUp002
+    400006: 05_Unit_WingL001
+    400008: 05_Unit_WingR001
+    400010: BoxBird_EyesR002
+    400012: //RootNode
+    2300000: 05_Unit_Body01
+    2300002: 05_Unit_MouthUp001
+    2300004: 05_Unit_MouthUp002
+    2300006: 05_Unit_WingL001
+    2300008: 05_Unit_WingR001
+    2300010: BoxBird_EyesR002
+    3300000: 05_Unit_Body01
+    3300002: 05_Unit_MouthUp001
+    3300004: 05_Unit_MouthUp002
+    3300006: 05_Unit_WingL001
+    3300008: 05_Unit_WingR001
+    3300010: BoxBird_EyesR002
+    4300000: 05_Unit_Body01
+    4300002: 05_Unit_WingL001
+    4300004: 05_Unit_WingR001
+    4300006: 05_Unit_MouthUp001
+    4300008: BoxBird_EyesR002
+    4300010: 05_Unit_MouthUp002
+    7400000: Unit05_Attack
+    7400002: Unit05_Idle
+    7400004: Unit05_Jump
+    9500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Unit05_Idle
+      takeName: Take 001
+      firstFrame: 6
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: 05_Unit_Body01
+        weight: 1
+      - path: 05_Unit_Body01/05_Unit_MouthUp001
+        weight: 1
+      - path: 05_Unit_Body01/05_Unit_MouthUp002
+        weight: 1
+      - path: 05_Unit_Body01/05_Unit_WingL001
+        weight: 1
+      - path: 05_Unit_Body01/05_Unit_WingR001
+        weight: 1
+      - path: 05_Unit_Body01/BoxBird_EyesR002
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Unit05_Jump
+      takeName: Take 001
+      firstFrame: 22
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: 05_Unit_Body01
+        weight: 1
+      - path: 05_Unit_Body01/05_Unit_MouthUp001
+        weight: 1
+      - path: 05_Unit_Body01/05_Unit_MouthUp002
+        weight: 1
+      - path: 05_Unit_Body01/05_Unit_WingL001
+        weight: 1
+      - path: 05_Unit_Body01/05_Unit_WingR001
+        weight: 1
+      - path: 05_Unit_Body01/BoxBird_EyesR002
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Unit05_Attack
+      takeName: Take 001
+      firstFrame: 42
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: 05_Unit_Body01
+        weight: 1
+      - path: 05_Unit_Body01/05_Unit_MouthUp001
+        weight: 1
+      - path: 05_Unit_Body01/05_Unit_MouthUp002
+        weight: 1
+      - path: 05_Unit_Body01/05_Unit_WingL001
+        weight: 1
+      - path: 05_Unit_Body01/05_Unit_WingR001
+        weight: 1
+      - path: 05_Unit_Body01/BoxBird_EyesR002
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.05
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
